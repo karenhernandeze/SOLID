@@ -1,3 +1,12 @@
+# SOLID Principles 
+The purpose of this code was to refactor it fot it to met the SOLID principles. Creating a flexible, scalable, maintainable, and reusable code. 
+* S - Single Responsibility
+* O - Open Closed Principle
+* L - Liskov Substitution Principle
+* I - Interface Segregation Principle
+* D - Dependency Inversion
+
+
 # Building project locally
 Install VirtualEnvironment (one time)
 
