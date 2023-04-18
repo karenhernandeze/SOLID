@@ -16,14 +16,14 @@ If we wanted to extract another field with the getters and setters we can extend
 'States that subclasses should be substitutable for their base classes.' (Yiğit Kemal Erinç)
 
 In this code example, we don't use subclasses because of the complexity, but an example that uses this principle could be to if we wanted to extend our program to algo get top tv shows, the parent class should have attributes that both tv shows and movies share, like Title, Cast, Rating, Classification, etc.
-* I - Interface Segregation Principle
+* **I - Interface Segregation Principle**
 
 'This principle is about separating the interfaces.' (Yiğit Kemal Erinç)
 
 In this example, we do not use Interfaces for two reasons. One, because they are not usual in Python and secondly because they are not necessary and to keep the SOLID principles, we shall not create unnecessary interfaces. 
-* D - Dependency Inversion
+* **D - Dependency Inversion**
 
-'states that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.' (Yiğit Kemal Erinç)
+'States that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.' (Yiğit Kemal Erinç)
 
 # Building project locally
 Install VirtualEnvironment (one time)
@@ -62,3 +62,8 @@ This will create a docker image using the `Dockerfile` with the image name `YOUR
 Run container
 
     >docker run YOUR_NAME
+
+
+
+
+SOLID PRINCIPLES REFERENCE: https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/
