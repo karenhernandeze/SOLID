@@ -11,10 +11,19 @@ The classes created, only have one responsibility. One to fetch the code, anothe
 'Requires that classes should be open for extension and closed to modification.' (Yiğit Kemal Erinç)
 
 If we wanted to extract another field with the getters and setters we can extend the class rather than modify the whole class. 
-* L - Liskov Substitution Principle
+* **L - Liskov Substitution Principle**
+
+'States that subclasses should be substitutable for their base classes.' (Yiğit Kemal Erinç)
+
+In this code example, we don't use subclasses because of the complexity, but an example that uses this principle could be to if we wanted to extend our program to algo get top tv shows, the parent class should have attributes that both tv shows and movies share, like Title, Cast, Rating, Classification, etc.
 * I - Interface Segregation Principle
+
+'This principle is about separating the interfaces.' (Yiğit Kemal Erinç)
+
+In this example, we do not use Interfaces for two reasons. One, because they are not usual in Python and secondly because they are not necessary and to keep the SOLID principles, we shall not create unnecessary interfaces. 
 * D - Dependency Inversion
 
+'states that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.' (Yiğit Kemal Erinç)
 
 # Building project locally
 Install VirtualEnvironment (one time)
