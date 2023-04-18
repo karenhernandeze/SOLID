@@ -1,7 +1,16 @@
 # SOLID Principles 
 The purpose of this code was to refactor it fot it to met the SOLID principles. Creating a flexible, scalable, maintainable, and reusable code. 
-* S - Single Responsibility
-* O - Open Closed Principle
+* **S - Single Responsibility:**
+
+'States that a class should do one thing and therefore it should have only a single reason to change.' (Yiğit Kemal Erinç)
+
+The classes created, only have one responsibility. One to fetch the code, another one to refactor te code in the wanted format and finally to write the data in a csv file.
+
+* **O - Open Closed Principle**
+
+'Requires that classes should be open for extension and closed to modification.' (Yiğit Kemal Erinç)
+
+If we wanted to extract another field with the getters and setters we can extend the class rather than modify the whole class. 
 * L - Liskov Substitution Principle
 * I - Interface Segregation Principle
 * D - Dependency Inversion
